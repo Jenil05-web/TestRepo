@@ -3,9 +3,195 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Adult Education - Learn at Your Own Pace</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <h1>TEST 1</h1>
+    <header>
+        <nav>
+            <div class="logo">Adult</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="cta-button">
+                <a href="#signup" class="btn">Sign Up</a>
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="hero-content">
+                <h1>Advance Your Career with AdueLT Learning</h1>
+                <p>Professional courses designed for working adults. Learn at your own pace, on your own schedule.</p>
+                <div class="hero-buttons">
+                    <a href="#courses" class="btn btn-primary">Explore Courses</a>
+                    <a href="#demo" class="btn btn-secondary">Watch Demo</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose AdueLT?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-clock feature-icon"></i>
+                    <h3>Flexible Schedule</h3>
+                    <p>Learn at your own pace with 24/7 access to all course materials.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-certificate feature-icon"></i>
+                    <h3>Certified Courses</h3>
+                    <p>Earn industry-recognized certificates upon completion.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-users feature-icon"></i>
+                    <h3>Expert Instructors</h3>
+                    <p>Learn from professionals with years of industry experience.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-comments feature-icon"></i>
+                    <h3>Community Support</h3>
+                    <p>Join our community of learners for networking and support.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses">
+        <div class="container">
+            <h2 class="section-title">Popular Courses</h2>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-image" style="background-image: url('https://via.placeholder.com/300x200')"></div>
+                    <div class="course-content">
+                        <span class="course-tag">Business</span>
+                        <h3>Project Management Professional</h3>
+                        <p>Master project management skills and prepare for PMP certification.</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 40 Hours</span>
+                            <span><i class="fas fa-star"></i> 4.8 (245)</span>
+                        </div>
+                        <a href="#" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-image" style="background-image: url('https://via.placeholder.com/300x200')"></div>
+                    <div class="course-content">
+                        <span class="course-tag">Technology</span>
+                        <h3>Data Science Fundamentals</h3>
+                        <p>Learn the core concepts of data analysis and visualization.</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 35 Hours</span>
+                            <span><i class="fas fa-star"></i> 4.9 (189)</span>
+                        </div>
+                        <a href="#" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-image" style="background-image: url('https://via.placeholder.com/300x200')"></div>
+                    <div class="course-content">
+                        <span class="course-tag">Personal Development</span>
+                        <h3>Leadership & Communication</h3>
+                        <p>Develop essential leadership skills for career advancement.</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 25 Hours</span>
+                            <span><i class="fas fa-star"></i> 4.7 (312)</span>
+                        </div>
+                        <a href="#" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="center-button">
+                <a href="#all-courses" class="btn btn-primary">View All Courses</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="bg-light">
+        <div class="container">
+            <h2 class="section-title">What Our Students Say</h2>
+            <div class="testimonials-slider">
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"The flexibility of AdueLT's courses allowed me to advance my career while working full-time. The instructors were knowledgeable and supportive throughout my learning journey."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://via.placeholder.com/60x60" alt="Student" class="author-image">
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>Marketing Director</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="signup" class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Start Your Learning Journey Today</h2>
+                <p>Sign up now and get access to our free introductory courses.</p>
+                <form class="signup-form">
+                    <input type="email" placeholder="Your Email Address" required>
+                    <button type="submit" class="btn btn-primary">Get Started</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3 class="footer-logo">AdueLT</h3>
+                    <p>Professional education for working adults. Learn new skills, advance your career.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Education St, Learning City</p>
+                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@aduelt.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 AdueLT Learning. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
 </body>
 </html>
